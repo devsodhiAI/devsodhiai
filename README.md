@@ -1,18 +1,25 @@
-# 💫 About Me:
-🔬 Focused on advancing Reinforcement Learning to develop AI that can address global challenges.<br><br>🤝 Excited to collaborate on impactful AI projects aimed at solving real-world problems.<br><br>💡 Looking to deepen my understanding of AI research, especially in reinforcement learning.<br><br>🌱 Continuously learning and applying AI techniques to create meaningful solutions.<br><br>💬 Ask me about AI, AGI, and how AI can help solve global issues.
+# Hi, I'm Dev 👋
 
+**AI Engineer / Forward Deployed Engineer** · Mumbai, India · 4+ years shipping production GenAI
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/devsodhi) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/DevSodhi8) 
+I build LLM systems that hold up with real users: agentic workflows, RAG, evals and the plumbing that makes them reliable. Most recently at **Nesoi.ai**, I architected the agentic core of an AI video product (LangGraph, tool calling, custom connectors) and its eval loop, and helped take it from 2 to 20+ customers and 1,000+ users. Before that: a WhatsApp support assistant that cut human queries by 65%, and a vector-search lead engine that lifted conversion by 22%.
 
-# 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=devsodhiai&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=devsodhiai&theme=tokyonight&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=devsodhiai&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+🌐 [Portfolio](https://dev-sodhi-portfolio.vercel.app) · 💼 [LinkedIn](https://linkedin.com/in/dev-sodhi) · ✉️ devsodhi6131@gmail.com
 
----
-[![](https://visitcount.itsvg.in/api?id=devsodhiai&icon=0&color=0)](https://visitcount.itsvg.in)
+## Featured projects
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+| Project | What it is |
+|---|---|
+| [**genai-production-labs**](https://github.com/devsodhiAI/genai-production-labs) | Runnable rebuilds of systems I shipped: LangGraph agent + prompt regression evals + MCP server, hybrid RAG with reranking and retrieval evals, a memory agent, LoRA fine-tune. Each with a failure log. |
+| [**ai-youtube-pipeline**](https://github.com/devsodhiAI/ai-youtube-pipeline) | An autonomous agent that researches, scripts, narrates, animates, QA-checks and publishes a YouTube explainer every day with no human in the loop. Claude Code, Gemini TTS, Whisper, Remotion. |
+| [**DeepSeek_FineTuning**](https://github.com/devsodhiAI/DeepSeek_FineTuning) | LoRA fine-tune of an open-weight model for strict JSON output: exact match 0% → 35%, intent 2% → 73% on a held-out set. |
+| [**Portfolio**](https://dev-sodhi-portfolio.vercel.app) | 3D "AI factory" portfolio with a RAG assistant that answers questions about my work in under a second. |
+
+## Stack
+
+**LLMs & agents:** LangGraph, LangChain, tool calling, MCP, guardrails, Claude, OpenAI, Gemini, open-weight models (Qwen, DeepSeek)
+**RAG:** chunking, embeddings, hybrid search (BM25 + vector), reranking, Pinecone, pgvector, Chroma
+**Evals & reliability:** retrieval and generation evals, LLM-as-judge, regression tests, structured outputs, retries and fallbacks, observability
+**Fine-tuning:** LoRA / QLoRA, Hugging Face Transformers + PEFT, PyTorch
+**Engineering:** Python, TypeScript, React, PostgreSQL, REST APIs, Docker, AWS / GCP / Azure, CI/CD
+**AI-native workflow:** Claude Code, Cursor
